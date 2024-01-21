@@ -1,0 +1,42 @@
+.Footer{
+    margin-top: 150px;
+    background: #eaeaea;
+    padding: 80px 90px;
+    .Nav{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #cbcbcb;
+        padding-bottom: 44px;
+        .Eatly{
+            color: #6c5Fbc;
+            font-family: Poppins;
+            font-size: 28px;
+            font-weight: 600;
+            margin-right: 700px;
+        }
+        .Footer-btn{
+            color: #999;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 60px;
+            background: #eaeaea;
+            transition: all 0.3s linear;
+        }
+        .Footer-btn:hover{
+            color: #6c5Fbc;
+        }
+    }
+    .Footer-socials{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        .Footer-all__rig{
+            color: #999999;
+        }
+        .Footer-soci{
+            margin-left: 700px;
+        }
+    }
+}

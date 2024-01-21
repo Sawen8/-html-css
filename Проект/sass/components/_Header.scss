@@ -1,0 +1,63 @@
+header{
+    margin: 48px 96px 0px 96px;
+    border-bottom: 1px solid #CBCBCB;
+    padding-bottom: 43px;
+    nav{
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                ul{
+                    display: flex;
+                    .Eatly{
+                        color: #6c5fbc;
+                        font-family: "Poppins";
+                        font-size: 21px;
+                        font-weight: 600;
+                        margin-left: 11px;
+                    }
+                    .Nav-item{
+                        color: #606060;
+                        font-family: "Inter";
+                        font-size: 17px;
+                        font-weight: 500;
+                        text-decoration: none;
+                        margin-right: 53px;
+                    }
+                    .Nav-item a{
+                        color: #606060;
+                    }
+                    .Menu-link:hover{
+                        color: #6c5fbc;
+                    }
+                    .Login a{
+                        color: #606060;
+                        font-family: "Inter";
+                        font-size: 17px;
+                        font-weight: 700;
+                        margin-right: 40px;
+                    }
+                    li{
+                        .Sign{
+                        border-radius: 17px;
+                        background: #6c5fbc;
+                        padding: 17px 26px;
+                        color: #f9f9f9;
+                        font-family: "Inter";
+                        font-size: 17px;
+                        font-weight: 700;
+                        transition: all 0.3s linear;
+                    }
+                        .Sign:hover{
+                            color: #6c5fbc;
+                            background: #FFF;
+                            border-color: #6c5fbc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}    
+    
